@@ -1,7 +1,12 @@
 // Public and Private
 class Car {
-  constructor(public color: string, private year: number) {
-}
+  public color: string;
+  private year: number;
+
+  constructor(color: string, year: number) {
+    this.color = color;
+    this.year = year;
+  }
 
   public drive() {
     console.log('vroom vroom');
@@ -27,6 +32,4 @@ console.log(myCar.color);
 
 //error - due ot private
 // console.log(myCar.year);
-
-
 
