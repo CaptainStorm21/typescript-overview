@@ -1,1 +1,1 @@
-// Generics function
+// copy and paste each lesson .ts file to test out the code
