@@ -6,5 +6,4 @@ const Component = (target: any) => {
 
 @Component
 class Car {
-  
-}
+

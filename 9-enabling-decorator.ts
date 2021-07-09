@@ -8,3 +8,4 @@ const Component = (target: any) => {
 class Car {
   
 }
+
