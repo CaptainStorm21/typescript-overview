@@ -1,9 +1,1 @@
-// Decorator
-
-const Component = (target: any) => {
-  console.log(target)
-};
-
-@Component
-class Car {
-
+//Strict mode
